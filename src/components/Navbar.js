@@ -19,6 +19,11 @@ export default function Navbar() {
             Contact
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">
+            Links
+          </a>
+        </li>
         {/* <li class="nav-item">
           <a
             class="nav-link disabled"

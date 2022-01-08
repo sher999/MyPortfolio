@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Typewriter from "typewriter-effect/dist/core";
+import Links from "./components/Links";
 
 export default function App() {
   return (
@@ -13,7 +13,8 @@ export default function App() {
       <Navbar />
       <Home />
       <About />
-      <Contact />      
+      <Contact />
+      <Links/>
     </div>
   );
 }
